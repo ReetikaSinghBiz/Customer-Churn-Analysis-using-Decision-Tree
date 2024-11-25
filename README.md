@@ -1,10 +1,13 @@
 # Customer-Churn-Analysis-using-Decision-Tree
+
 This project predicts telecom customer churn by analyzing features like contract renewal, data usage, and service calls. Steps include EDA, preprocessing, decision tree modeling, pruning, and Grid Search optimization. Visualizations and metrics included.
 
 The main goal is to identify factors contributing to customer churn and build a predictive model to improve customer retention strategies.
 
 
+
 **Dataset Features**
+
 Churn (Target): Indicates if a customer has churned (1) or not (0).
 
 AccountWeeks: Total weeks the customer has been with the company.
@@ -68,7 +71,7 @@ Optimization:
 Applied Grid Search for hyperparameter tuning.
 
   
-Re sults
+Results:
 
 Training Accuracy: ~79.5% after pruning.
 
