@@ -6,7 +6,7 @@ The main goal is to identify factors contributing to customer churn and build a 
 
 
 
-**Dataset Features**
+## Dataset Features
 
 Churn (Target): Indicates if a customer has churned (1) or not (0).
 
@@ -32,9 +32,9 @@ RoamMins: Minutes spent on roaming calls.
 
 
 
-**Steps taken**
+## Steps taken
 
-Data Preprocessing:
+### Data Preprocessing:
 
 Checked for nulls, duplicates, and outliers.
 
@@ -42,7 +42,7 @@ Applied Winsorization to handle outliers.
 
 
 
-Exploratory Data Analysis:
+### Exploratory Data Analysis:
 
 Visualized churn trends and feature distributions.
 
@@ -50,7 +50,7 @@ Identified characteristics of churned customers.
 
 
 
-Model Building:
+### Model Building:
 
 Built and visualized a Decision Tree.
 
@@ -58,7 +58,7 @@ Improved model performance through pruning.
 
 
 
-Evaluation:
+### Evaluation:
 
 Assessed model accuracy, sensitivity, and specificity.
 
@@ -66,12 +66,12 @@ Achieved high training and testing accuracy.
 
 
 
-Optimization:
+### Optimization:
 
 Applied Grid Search for hyperparameter tuning.
 
   
-Results:
+### Results:
 
 Training Accuracy: ~79.5% after pruning.
 
@@ -79,13 +79,13 @@ Testing Accuracy: ~86.1%.
 
 
 
-Insights: Customers with no data plans, frequent customer service calls, and high overage fees are more likely to churn.
+### Insights: Customers with no data plans, frequent customer service calls, and high overage fees are more likely to churn.
 
 
 
 
 
-**Install required libraries using:**
+## Install required libraries using:
 
 pip install -r requirements.txt
 
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 
 
 
-**Files Included**
+## Files Included
 
 Customer Churn Analysis using Decision Tree.ipynb: Jupyter notebook with the complete analysis.
 
@@ -105,7 +105,7 @@ Decision Tree.pkl: Exported model for predictions.
 
 
 
-**Tools & Libraries**
+## Tools & Libraries
 
 Libraries: Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, Plotly.
 
@@ -115,6 +115,6 @@ Techniques Used: Data preprocessing, Decision Tree, Grid Search, Winsorization.
 
 
 
-Author
+# Author
 
 Reetika Singh
